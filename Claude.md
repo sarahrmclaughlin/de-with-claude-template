@@ -1,6 +1,6 @@
 # Project Context
 
-This is a data engineering project using UV.
+This is a data engineering template using UV.
 
 ## Commands
 - uv sync
