@@ -1,5 +1,3 @@
-.PHONY: install run test
-
 install:
 	uv sync
 
@@ -8,3 +6,12 @@ run:
 
 test:
 	uv run pytest
+
+spark:
+	uv run python src/pipelines/spark_job.py
+
+sql:
+	uv run python src/pipelines/sql_runner.py
+
+lint:
+	uv run black . && uv run flake8 .
