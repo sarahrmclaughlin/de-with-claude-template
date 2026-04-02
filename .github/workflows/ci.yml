@@ -3,12 +3,12 @@ name: CI
 on:
   push:
     branches: [main, 'feat/**']
-    paths:
-      - 'src/**'
-      - 'tests/**'
-      - 'dags/**'
-      - 'Makefile'
-      - 'docker-compose.yaml'
+    # paths:
+    #   - 'src/**'
+    #   - 'tests/**'
+    #   - 'dags/**'
+    #   - 'Makefile'
+    #   - 'docker-compose.yaml'
   pull_request:
 
 jobs:
