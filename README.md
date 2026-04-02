@@ -1,6 +1,6 @@
 # TEMPLATE Repo - For DE work using UV
 
-- You can use this as well /Users/sarahrmclaughlin/Documents/repos/de-with-claude-template/data_engineering_repo_bootstrap.sh
+- You can use this as well data_engineering_repo_bootstrap.sh
 
 ## Setup (uv)
 
@@ -29,14 +29,10 @@ uv export --format requirements-txt > requirements.txt
 pip install -r requirements.txt
 ```
 
-## Check with packages are installed
-```bash
-uv pip list
-```
 
 ```bash
 Task	            Command
-List dependencies	uv list
+List dependencies	uv pip list
 Add package	        uv add <package>
 Add dev package	    uv add --dev <package>
 Remove package	    uv remove <package>
