@@ -34,9 +34,8 @@ make test
 - Includes optional Spark + Airflow
 - Designed for fast iteration
 
-
+#### Project Structure
 ```bash
-.
 ├── src/
 │   ├── pipelines/
 │   │   ├── etl_api_to_duckdb.py

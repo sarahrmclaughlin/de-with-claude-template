@@ -89,6 +89,15 @@ Sync env(post update)	uv sync
 Run script inside venv	uv run python src/main.py
 ```
 
+#### uv with pre-commit or other packages
+- First time set-up
+    - add it to packages
+    - install pre-commit
+```bash
+uv add pre-commit
+uv run pre-commit install
+```
+
 #### Alternative to uv(pip)
 
 ```bash
