@@ -1,8 +1,8 @@
-# TEMPLATE Repo - For DE work using UV
+# **TEMPLATE**
+## Quick set-up for DE/AE work
+### Featuring typical repo set-up, + Claude, UV, and Github Actions
 
-##### A general template for DE work 
-
-- You can use this template or just upload using data_engineering_repo_bootstrap.sh
+- You can use this template out of the box or just upload using data_engineering_repo_bootstrap.sh
     - For the script shell (WORK IN PROGRESS)
 ```bash
     ./data_engineering_repo_bootstrap.sh
@@ -65,7 +65,14 @@ make test
 ├── Makefile
 ├── README.md
 ├── .gitignore
+├── CLAUDE.md
+├── .claude
+│   ├── agents
+│   ├── agent-memory
+├── .github
+│   ├── workflows/ci.yml
 └── .env.example
+
 ```
 
 
